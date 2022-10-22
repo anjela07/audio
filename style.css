@@ -1,0 +1,30 @@
+body{
+    background-image: url(./i.webp);
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.main {
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+    border: 2px solid rgb(252, 99, 125);
+    border-color: rgb(247, 84, 238);
+    background-image: url(https://avatars.mds.yandex.net/i?id=dbd36d97a38b20803c8a54a652400a84-7012718-images-thumbs&n=13);
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 0px 30px 10px violet;
+    transition: 1s;
+}
+.main:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.main audio {
+
+}
